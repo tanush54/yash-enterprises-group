@@ -1,99 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Yash Enterprises Group - Hotels, restaurants, retail, machinery, hardware, wholesale and online services.">
-<title>Yash Enterprises Group</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YASH ENTERPRISES GROUP — Hotels, restaurants, retail, machinery, hardware, wholesale and associated services.">
+  <meta name="theme-color" content="#080808">
+  <title>YASH ENTERPRISES GROUP | Business Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="#home">YASH <span>ENTERPRISES GROUP</span></a>
-    <button class="menu" onclick="toggleMenu()">☰</button>
-    <nav id="navLinks">
-      <a href="#home">Home</a>
-      <a href="#businesses">Our Businesses</a>
-      <a href="#about">About Group</a>
-      <a href="#partnership">Partnership</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-<section id="home" class="hero">
-  <div class="container hero-inner">
-    <p class="eyebrow">YASH ENTERPRISES GROUP</p>
-    <h1>Hotels. Retail. Wholesale. Services.</h1>
-    <p class="lead">A group of businesses serving customers across hospitality, retail, machinery, hardware, wholesale and digital services.</p>
-    <div class="actions">
-      <a class="btn primary" href="#businesses">Explore Businesses</a>
-      <a class="btn secondary" href="#contact">Contact Us</a>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>Ranjit Lamkane <b>• Owner</b></div>
+      <div class="top-actions">
+        <a href="tel:+919766765055">☎ 9766765055</a>
+        <a href="tel:+919322976377">☎ 9322976377</a>
+        <span>📍 Kuroli • Pandharpur</span>
+      </div>
     </div>
   </div>
-</section>
 
-<section id="businesses" class="section">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">OUR BUSINESSES</p>
-      <h2>Our Business Portfolio</h2>
-      <p>Explore each business and its services.</p>
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <span class="brand-mark">YE</span>
+        <span class="brand-text"><strong>YASH</strong><small>ENTERPRISES GROUP</small></span>
+      </a>
+      <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#businesses">Businesses</a>
+        <a href="#about">About</a>
+        <a href="#partnership">Partnership</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Enquire Now</a>
     </div>
-    <div class="grid">
-      <article class="card"><img class="business-logo" src="assets/hotel-yash.jpeg" alt="Hotel Yash logo"><h3>Hotel Yash</h3><p>Permit Room</p><a href="#hotel-yash">View Details →</a></article>
-      <article class="card"><img class="business-logo" src="assets/hotel-namrata.jpeg" alt="Hotel Namrata logo"><h3>Hotel Namrata</h3><p>Family Restaurant • Permit Room</p><a href="#hotel-namrata">View Details →</a></article>
-      <article class="card"><img class="business-logo" src="assets/yash-kirana.jpeg" alt="Yash Kirana and General Store logo"><h3>Yash Kirana & General Store</h3><p>Kirana • General Store</p><a href="#yash-kirana">View Details →</a></article>
-      <article class="card"><img class="business-logo" src="assets/yash-enterprises.jpeg" alt="Yash Enterprises logo"><h3>Yash Enterprises</h3><p>Machinery • Hardware • Wholesale</p><a href="#yash-enterprises">View Details →</a></article>
-      <article class="card"><div class="icon">RB</div><h3>Ranjeet Beer Shoppe</h3><p>Beer Shoppe</p><a href="#ranjeet">View Details →</a></article>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-pattern"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> ESTABLISHED BUSINESS GROUP</div>
+          <h1>Building Businesses.<br><em>Serving People.</em></h1>
+          <p>YASH ENTERPRISES GROUP brings together hospitality, retail, machinery, hardware, wholesale and associated digital services under one trusted identity.</p>
+          <div class="hero-actions">
+            <a class="btn gold-btn" href="#businesses">Explore Businesses <b>→</b></a>
+            <a class="btn glass-btn" href="https://wa.me/919766765055?text=Hello%20Yash%20Enterprises%20Group,%20I%20have%20an%20enquiry." target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Local Presence</span>
+            <span>✓ Direct Contact</span>
+            <span>✓ Multiple Ventures</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-card-top"><span>YEG</span><span>GROUP PROFILE</span></div>
+          <div class="hero-seal">YE</div>
+          <h2>YASH<br><span>ENTERPRISES</span></h2>
+          <p>Hotels • Restaurants • Retail • Wholesale • Services</p>
+          <div class="gold-line"></div>
+          <small>One group. Multiple ventures. One trusted identity.</small>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>5</strong><span>Owned Businesses</span></div>
+        <div><strong>1</strong><span>Associated Partnership</span></div>
+        <div><strong>2</strong><span>Direct Contacts</span></div>
+        <div><strong>24/7</strong><span>Online Presence</span></div>
+      </div>
+    </section>
+
+    <section id="businesses" class="section light-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow dark"><span></span> OUR BUSINESS PORTFOLIO</div>
+            <h2>Businesses built for <em>people.</em></h2>
+          </div>
+          <p>Explore each venture, view its location and contact the right team directly.</p>
+        </div>
+
+        <div class="business-grid">
+          <article class="business-card reveal">
+            <div class="card-image"><img src="assets/hotel-yash.jpeg" alt="Hotel Yash Permit Room logo"><span class="card-badge">HOSPITALITY</span></div>
+            <div class="card-body">
+              <h3>Hotel Yash</h3><p class="role">Permit Room</p>
+              <p class="address">📍 Pune–Pandharpur National Highway, near Pirachi Kuroli Phata</p>
+              <div class="card-actions"><a href="tel:+919766765055">Call</a><a href="https://www.google.com/maps/search/?api=1&query=Hotel%20Yash%20Pirachi%20Kuroli%20Phata" target="_blank" rel="noopener">Directions ↗</a></div>
+            </div>
+          </article>
+
+          <article class="business-card reveal">
+            <div class="card-image"><img src="assets/hotel-namrata.jpeg" alt="Hotel Namrata Family Restaurant logo"><span class="card-badge">HOSPITALITY</span></div>
+            <div class="card-body">
+              <h3>Hotel Namrata</h3><p class="role">Family Restaurant • Permit Room</p>
+              <p class="address">📍 Pune–Pandharpur National Highway, Service Road, near Wadi Kuroli</p>
+              <div class="card-actions"><a href="tel:+919766765055">Call</a><a href="https://www.google.com/maps/search/?api=1&query=Hotel%20Namrata%20Wadi%20Kuroli" target="_blank" rel="noopener">Directions ↗</a></div>
+            </div>
+          </article>
+
+          <article class="business-card reveal">
+            <div class="card-image"><img src="assets/yash-kirana.jpeg" alt="Yash Kirana and General Store logo"><span class="card-badge">RETAIL</span></div>
+            <div class="card-body">
+              <h3>Yash Kirana &amp; General Store</h3><p class="role">Kirana • General Store</p>
+              <p class="address">📍 Pirachi Kuroli, Sawant Wasti, near Shiv Mandir, opposite road</p>
+              <div class="card-actions"><a href="tel:+919766765055">Call</a><a href="https://www.google.com/maps/search/?api=1&query=Yash%20Kirana%20General%20Store%20Pirachi%20Kuroli" target="_blank" rel="noopener">Directions ↗</a></div>
+            </div>
+          </article>
+
+          <article class="business-card reveal">
+            <div class="card-image"><img src="assets/yash-enterprises.jpeg" alt="Yash Enterprises logo"><span class="card-badge">WHOLESALE</span></div>
+            <div class="card-body">
+              <h3>Yash Enterprises</h3><p class="role">Machinery • Hardware • Building Material • Wholesale &amp; Retail</p>
+              <p class="address">📍 Pirachi Kuroli, Sawant Wasti, near Shiv Mandir, opposite road</p>
+              <div class="card-actions"><a href="tel:+919322976377">Call</a><a href="https://www.google.com/maps/search/?api=1&query=Yash%20Enterprises%20Pirachi%20Kuroli" target="_blank" rel="noopener">Directions ↗</a></div>
+            </div>
+          </article>
+
+          <article class="business-card special-card reveal">
+            <div class="special-logo">RB</div>
+            <div class="card-body">
+              <span class="special-label">RETAIL</span>
+              <h3>Ranjeet Beer Shoppe</h3><p class="role">Beer Shoppe</p>
+              <p class="address">📍 Kuroli Phata, Pirachi Kuroli, Pandharpur</p>
+              <div class="card-actions"><a href="tel:+919766765055">Call</a><a href="https://www.google.com/maps/search/?api=1&query=Ranjeet%20Beer%20Shoppe%20Kuroli%20Phata" target="_blank" rel="noopener">Directions ↗</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="dark-section">
+      <div class="container about-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span></span> ABOUT THE GROUP</div>
+          <h2>One group.<br><em>Multiple ventures.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>YASH ENTERPRISES GROUP is a local business group with interests across hospitality, retail, machinery, hardware and wholesale.</p>
+          <p>Each business maintains its own identity while sharing a common group presence that makes discovery, communication and customer service easier.</p>
+          <div class="signature">YASH ENTERPRISES GROUP <small>Business • Service • Trust</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partnership" class="section light-section">
+      <div class="container">
+        <div class="partner-box reveal">
+          <div class="partner-mark">ORH</div>
+          <div class="partner-content">
+            <div class="eyebrow dark"><span></span> OUR PARTNERSHIP</div>
+            <h2>Online Registration Hub</h2>
+            <p class="partner-role">Tanush Lamkane — <strong>Co-Partner</strong></p>
+            <p>Associated online service business providing FSSAI Registration, Udyam Registration, Shop Act, GST, PAN, government forms and other online application services.</p>
+            <div class="tags"><span>FSSAI</span><span>Udyam</span><span>Shop Act</span><span>GST</span><span>PAN</span><span>Online Forms</span></div>
+          </div>
+          <a class="btn dark-btn" href="https://www.google.com/search?q=Online+Registration+Hub" target="_blank" rel="noopener">View Services ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="eyebrow dark"><span></span> OUR BRANDS</div><h2>Business <em>Gallery.</em></h2></div>
+          <p>A look at the brands under the YASH ENTERPRISES GROUP identity.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal"><img src="assets/hotel-yash.jpeg" alt="Hotel Yash"><figcaption>Hotel Yash</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="assets/hotel-namrata.jpeg" alt="Hotel Namrata"><figcaption>Hotel Namrata</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="assets/yash-kirana.jpeg" alt="Yash Kirana & General Store"><figcaption>Yash Kirana &amp; General Store</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="assets/yash-enterprises.jpeg" alt="Yash Enterprises"><figcaption>Yash Enterprises</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span></span> GET IN TOUCH</div>
+          <h2>Let's talk<br><em>business.</em></h2>
+          <p>For enquiries, business information, directions or general assistance, contact us directly.</p>
+          <div class="contact-mini"><span>📍</span><div><strong>Group Location</strong><small>Pune–Pandharpur National Highway • Kuroli area • Pandharpur</small></div></div>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-person"><div class="avatar">RL</div><div><strong>Ranjit Lamkane</strong><small>Owner</small><a href="tel:+919766765055">9766765055</a></div></div>
+          <div class="contact-person"><div class="avatar">TL</div><div><strong>Tanush Lamkane</strong><small>Contact</small><a href="tel:+919322976377">9322976377</a></div></div>
+          <div class="contact-buttons"><a class="btn gold-btn" href="tel:+919766765055">Call Now</a><a class="btn whatsapp-btn" href="https://wa.me/919766765055?text=Hello%20Yash%20Enterprises%20Group,%20I%20have%20an%20enquiry." target="_blank" rel="noopener">WhatsApp</a></div>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Pirachi%20Kuroli%20Pandharpur%20Maharashtra" target="_blank" rel="noopener">📍 Open Group Area in Google Maps ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry-section">
+      <div class="container enquiry-box reveal">
+        <div>
+          <div class="eyebrow dark"><span></span> QUICK ENQUIRY</div>
+          <h2>Send an enquiry on <em>WhatsApp.</em></h2>
+          <p>Fill in your details and the website will prepare a WhatsApp message for you.</p>
+        </div>
+        <form id="enquiryForm">
+          <input id="name" type="text" placeholder="Your name" required>
+          <input id="phone" type="tel" placeholder="Phone number" required>
+          <select id="business" required>
+            <option value="">Select business</option>
+            <option>Hotel Yash</option>
+            <option>Hotel Namrata</option>
+            <option>Yash Kirana & General Store</option>
+            <option>Yash Enterprises</option>
+            <option>Ranjeet Beer Shoppe</option>
+            <option>Online Registration Hub</option>
+            <option>General Group Enquiry</option>
+          </select>
+          <textarea id="message" rows="4" placeholder="Your enquiry" required></textarea>
+          <button class="btn gold-btn" type="submit">Send on WhatsApp →</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-brand"><span class="brand-mark">YE</span><div><strong>YASH ENTERPRISES GROUP</strong><small>Hotels • Retail • Wholesale • Services</small></div></div>
+      <div class="footer-links"><a href="#businesses">Businesses</a><a href="#about">About</a><a href="#partnership">Partnership</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
     </div>
-  </div>
-</section>
+    <div class="container footer-bottom"><span>© 2026 YASH ENTERPRISES GROUP. All Rights Reserved.</span><a href="#home">Back to top ↑</a></div>
+  </footer>
 
-<section id="about" class="dark-section">
-  <div class="container split">
-    <div><p class="eyebrow">ABOUT THE GROUP</p><h2>Built around multiple businesses.</h2></div>
-    <div><p>Yash Enterprises Group brings together our hospitality, retail, machinery, hardware and wholesale businesses under one group identity.</p><p>Business-specific information, contact details, photos, menus and enquiry options can be added as the website grows.</p></div>
-  </div>
-</section>
-
-<section id="partnership" class="section partnership">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">PARTNERSHIP</p>
-      <h2>Online Registration Hub</h2>
-      <p><strong>Co-Partner</strong> — presented separately from the group's owned businesses.</p>
-    </div>
-    <div class="service-box">
-      <div><h3>Online & Government Services</h3><p>FSSAI • Udyam • Shop Act • GST • PAN • Government Forms • Online Applications</p></div>
-      <a class="btn primary" href="#contact">View Services</a>
-    </div>
-  </div>
-</section>
-
-<section class="section details">
-<div class="container">
-  <article id="hotel-yash"><h2>Hotel Yash</h2><p class="tag">Permit Room</p><p>Permit Room<br><strong>Address:</strong> Pune–Pandharpur National Highway, near Pirachi Kuroli Phata.</p></article>
-  <article id="hotel-namrata"><h2>Hotel Namrata</h2><p class="tag">Family Restaurant • Permit Room</p><p>Family Restaurant • Permit Room<br><strong>Address:</strong> Pune–Pandharpur National Highway, on Service Road, near Wadi Kuroli.</p></article>
-  <article id="yash-kirana"><h2>Yash Kirana & General Store</h2><p class="tag">Kirana • General Store</p><p>Kirana • General Store<br><strong>Address:</strong> Pirachi Kuroli, Sawant Wasti, near Shiv Mandir, opposite road.</p></article>
-  <article id="yash-enterprises"><h2>Yash Enterprises</h2><p class="tag">Machinery • Hardware • Wholesale</p><p>Machinery • Hardware • Wholesale<br><strong>Address:</strong> Same location as Yash Kirana & General Store — Pirachi Kuroli, Sawant Wasti, near Shiv Mandir, opposite road.</p></article>
-  <article id="ranjeet"><h2>Ranjeet Beer Shoppe</h2><p class="tag">Beer Shoppe</p><p>Beer Shoppe<br><strong>Address:</strong> Kuroli Phata, Pirachi Kuroli, Pandharpur.</p></article>
-</div>
-</section>
-
-<section id="contact" class="contact">
-  <div class="container">
-    <p class="eyebrow">CONTACT</p>
-    <h2>Let's connect.</h2>
-    <p>Owner: Ranjit Lamkane · 9766765055<br>Contact: Tanush Lamkane · 9322976377</p>
-    <div class="owner-contacts"><div><strong>Ranjit Lamkane</strong><br>9766765055</div><div><strong>Tanush Lamkane</strong><br>9322976377</div></div><div class="contact-actions"><a class="btn primary" href="tel:+919766765055">Call Us</a><a class="btn secondary" href="https://wa.me/919766765055">WhatsApp</a></div>
-  </div>
-</section>
-</main>
-
-<footer><div class="container"><strong>YASH ENTERPRISES GROUP</strong><span>© 2026 All Rights Reserved</span></div></footer>
-<script src="script.js"></script>
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
